@@ -12,7 +12,7 @@ download and install https://www.cygwin.com
 
 ![](./fig/lab01-fig1.png)
 
-#### a-2. windows (using WSL, recommended)
+#### a-2. windows (using WSL+ubuntu, recommended)
 
   + open powershell from start menu
     
@@ -49,7 +49,6 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 ```
 $ brew install gcc
 $ brew install macvim
-$ gcc-13 --version
 ```
 
 ​	[screenshot of homebrew]
@@ -62,7 +61,7 @@ $ gcc-13 --version
 $ g++-14 --version
 ```
 
-#### c. linux (ubuntu)
+#### c. linux (ubuntu, also recommended)
 
 1. open terminal
 2. install gcc and others
