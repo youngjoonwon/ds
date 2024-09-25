@@ -32,9 +32,8 @@ void update_array(array<int, 10> ar)
 int main(void)
 {
   array<int, 10> ar = {0};
-	
-	//change it to your name below
-	cout << "Young" << endl;
+  //change it to your name below
+  cout << "Young" << endl;
   
   show(ar, "initializing all 0");
   
@@ -42,8 +41,8 @@ int main(void)
   
   show(ar, "after update");
   cout << endl;
-    
-	return 0;
+  
+  return 0;
 }
 ```
 
